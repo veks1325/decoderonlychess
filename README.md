@@ -18,7 +18,7 @@
 ### 3. 트랜스포머 모델 아키텍처 구현 (Model Architecture)
 - **디코더 온리(Decoder-only) 구조:** 과거의 수만 보고 미래의 수를 예측하기 위해 **마스크드 셀프 어텐션(Masked Self-Attention)**을 적용합니다.
 - **임베딩(Embedding):** 토큰화된 수의 ID를 고차원 임베딩 벡터로 변환하고, 위치 인코딩(Positional Encoding)을 더해 수의 순서 및 턴(Turn) 정보를 모델에 전달합니다.
-- **포지셔널 인코딩 rope 나 절대위치로 해서 성능비교로 선택하기**
+- **포지셔널 임베딩 rope 나 절대위치로 해서 성능비교로 선택하기**
 
 ### 4. 모델 훈련 (Training)
 - **프리트레이닝 (Autoregressive Training):** 교차 엔트로피 손실(Cross-Entropy Loss) 함수를 사용하여, 모델이 매 턴마다 정답의 확률을 최대화하도록 가중치를 업데이트합니다.
