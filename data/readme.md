@@ -1,1 +1,2 @@
-체스 gm이상이 둔 데이터를 정리해서 합쳐놓기 
+체스 고 레이팅 데이터 
+https://huggingface.co/datasets/nuriyev/lichess-elite/viewer
